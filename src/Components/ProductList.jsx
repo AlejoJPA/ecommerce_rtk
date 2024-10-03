@@ -38,7 +38,7 @@ const ProductList = () => {
         ))}
      
       </ul>
-      <SuperCoin/>  
+      //<SuperCoin/>  
      
         
     </div>
