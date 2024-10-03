@@ -38,11 +38,11 @@ const ProductList = () => {
         ))}
      
       </ul>
-      <div>
-        <SuperCoin/>  
-      </div>
+    
 
     </div>
+
+
    
   );
 };
