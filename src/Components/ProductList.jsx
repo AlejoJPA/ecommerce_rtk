@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addItemToCart } from './CartSlice';
 import './ProductList.css';
+import './SuperCoin'; // SuperCoin is a customized function
 
 const ProductList = () => {
   const dispatch = useDispatch();
@@ -32,11 +33,17 @@ const ProductList = () => {
                 
                     Add to Cart
             </button>
+
             </li>
         ))}
      
       </ul>
+      <div>
+        <SuperCoin/>  
+      </div>
+
     </div>
+   
   );
 };
 
